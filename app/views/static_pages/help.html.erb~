@@ -1,0 +1,11 @@
+<% provide(:title, 'Help') %>
+
+  <body>
+    <h1>Help</h1>
+    <p>
+      Get help on Ruby on DTails at the
+      <a href="http://clinicaltrials.gov">ClinicalTrials.Gov web site</a>. <br>
+      To get help on the use of this Application, see the
+      <a href="http://clinicaltrials.gov">Dtrials Tutorial book</a>
+    </p>
+

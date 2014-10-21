@@ -1,0 +1,8 @@
+<% provide(:title, 'Contact') %>
+
+    <h1>Contact</h1>
+    <p>
+      Contact BMan at Mobile Medicine about the Dtrials App at the 
+      <a href="http://IBM.com">MobileMedicine Contact Page</a>.  
+    </p>
+

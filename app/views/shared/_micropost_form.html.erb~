@@ -1,0 +1,18 @@
+<%= form_for (@micropost), html => { :multipart => true } do |f| %>
+
+  <%= render 'shared/error_messages', object: f.object %>
+
+  <div class="field">
+	<%= f.text_area :trial, placeholder: "Trial Name(20 char)" %>
+
+  <div class="field">
+	<%= f.text_area :content, placeholder: "Compose new micropost... " %>
+  </div>
+
+  <p>
+	<%= f.file_field :attachedfile %>
+  </p>
+
+  <%= f.submit "Post", class: "btn btn-large btn-primary" %>
+
+<% end %>
